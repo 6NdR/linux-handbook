@@ -1,0 +1,91 @@
+site_name: 6NdR
+
+theme: 
+  name: material
+  language: fr
+  logo: assets/images/bender-fourrure-3.png
+  favicon: assets/images/bender-fourrure-3.ico
+  features:
+    - navigation.tabs
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Passer en mode clair
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/6NdR
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julienlediagon
+    - icon: material/email
+      link: mailto:6ndr.contact@gmail.com
+
+copyright: Copyright &copy; 2025 - 6NdR
+
+nav:
+  - Accueil: index.md
+  - CyberSec Handbook: cybersec-handbook/introduction.md
+  - CTF Write-Ups: 
+      - Introduction: ctf-write-ups/introduction.md
+      - Root Me:
+          - App - Script:
+              - Bash - cron: ctf-write-ups/root-me/app-script/bash-cron.md
+              - Bash - Système 1: ctf-write-ups/root-me/app-script/bash-system-1.md
+              - Bash - Système 2: ctf-write-ups/root-me/app-script/bash-system-2.md
+              - sudo - Faiblesse de configuration: ctf-write-ups/root-me/app-script/sudo-faiblesse-de-configuration.md
+          - Forensic :
+              - Trouver le chat: ctf-write-ups/root-me/forensic/trouver-le-chat.md
+      - Hackropole:
+          - Forensics:
+              - Analyse Mémoire - Pour Commencer (1/2): ctf-write-ups/hackropole/forensics/analyse-memoire-pour-commencer-1-2.md
+              - Analyse Mémoire - Pour Commencer (2/2): ctf-write-ups/hackropole/forensics/analyse-memoire-pour-commencer-2-2.md
+          - Miscellaneous: 
+              - À l'envers: ctf-write-ups/hackropole/miscellaneous/a-l-envers.md
+      - OZINT.eu: ctf-write-ups/ozint.eu/sample.md
+      - iOSINT: ctf-write-ups/iosint/sample.md
+      - TryHackMe: ctf-write-ups/try-hack-me/sample.md
+      - HackTheBox: ctf-write-ups/hack-the-box/sample.md
+      - TheBlackSide: ctf-write-ups/the-black-side/sample.md
+  - Linux Handbook: 
+      - Introduction: linux-handbook/introduction.md
+      - Sommaire: linux-handbook/summary.md
+      - 1 - Installation de Linux et des logiciels: linux-handbook/01-installation-de-linux-et-des-logiciels.md
+      - 2 - Démarrage de Linux et gestion des services: linux-handbook/02-demarrage-de-linux-et-gestion-des-services.md
+      - 3 - Systèmes de fichiers et périphériques: linux-handbook/03-systemes-de-fichiers-et-periphériques.md
+      - 4 - Noyau Linux: linux-handbook/04-noyaux-linux.md
+      - 5 - Shell et commandes GNU: linux-handbook/05-shell-et-commandes-gnu.md
+      - 6 - Maintenance du système: linux-handbook/06-maintenance-du-système.md
+      - 7 - Planification des ressources: linux-handbook/07-planification-des-ressources.md
+      - 8 - Tâches d'administration: 
+          - Service cron et crontab: linux-handbook/08-taches-d-administration/service-cron-et-crontab.md
+      - 9 - Réseau: linux-handbook/09-reseau.md
+      - 10 - Sécurité du système: linux-handbook/10-securite-du-systeme.md
+      - 11 - Interfaces graphiques: linux-handbook/11-interfaces-graphiques.md
+      - 12 - Virtualisation - Machines virtuelles, containers et cloud: linux-handbook/12-virtualisation-machines-virtuelles-containers-et-cloud.md
+      - 13 - Services Linux: linux-handbook/13-services-linux.md
+      - Références: linux-handbook/references.md  
+  # - Langage Python Handbook:
+  #     Introduction: langage-python-handbook/introduction.md
+  # - Langage C Handbook:
+  #     Introduction: langage-c-handbook/introduction.md
+  # - Langage Assembleur Handbook:
+  #     Introduction: langage-assembleur-handbook/introduction.md
+  # - Git Handbook:
+  #     Introduction: git-handbook/introduction.md
+  # - Docker Handbook: 
+  #     Introduction: docker-handbook/introduction.md
+  # - Kubernetes Handbook: 
+  #     Introduction: kubernetes-handbook/introduction.md
+  # - Terraform Handbook: 
+  #     Introduction: terraform-handbook/introduction.md
+  # - Blog: blog.md
+  - Auteur: author.md
